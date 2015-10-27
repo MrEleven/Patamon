@@ -8,3 +8,4 @@ dist/*
 .\#*
 *.swp
 .idea
+conf/online_patamon.py
