@@ -17,3 +17,7 @@ class UploadHandler(tornado.web.RequestHandler):
         image_url = image_ctrl.upload_pic(image)
         return self.write(image_url)
         
+class TestHandler(tornado.web.RequestHandler):
+    """上传图片测试页面"""
+    def get(self):
+        return self.render("test.html")
